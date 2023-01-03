@@ -8,7 +8,14 @@ lsa期末報告
 - raspberry pi 3
 - web camera
 # 建構過程
-
+Raspberry pi+web camer
+Raspberry pi下的指令步驟
+sudo apt install apache2
+cd /etc/www/html 下
+在 cd /etc/www/html sudo git clone 我的專案
+樹梅派和電腦要在同一個內網下
+查詢樹梅派IP:ifconfig
+根據ip連上架到樹梅派的網站
 # 使用步驟
 
 # DEMO影片
