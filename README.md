@@ -5,20 +5,20 @@ lsa期末報告
 # 功能
 - 一個電子鼓，透過影像識別手揮動的位置來發出聲音
 - 有三種樂器可以選擇分別是鼓、鋼琴、吉他
+- 使用者可以上傳喜歡的背景樂，來自己根據音樂打節拍
 # 使用設備
 - raspberry pi 3
 - web camera
 # 如何快速部屬空氣鼓達人
-Raspberry pi+web camer
-Raspberry pi下的指令步驟
-sudo apt install apache2
-cd /etc/www/html 下
-在 cd /etc/www/html sudo git clone 我的專案
-樹梅派和電腦要在同一個內網下
-查詢樹梅派IP:ifconfig
-根據ip連上架到樹梅派的網站
-# 使用步驟
-
+- 以下皆在樹梅派下
+- sudo apt install apache2
+- sudo apt install php -y
+- sudo apt install git
+- cd /etc/www/html 
+-sudo git clone https://github.com/SredWh/LSA_project.git
+-ifconfig 獲取樹梅派IP
+-電腦要跟樹梅派在同一個內網下
+-根據樹梅派的IP連apache2就可以開始打鼓
 # DEMO影片
 
 # 工作分工
