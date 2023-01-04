@@ -26,5 +26,7 @@ lsa期末報告
 - 陳延勳:報告、示範、創意
 - 李柏緯:寫介紹、攝影剪輯、創意
 # 參考資料
-
+- https://github.com/victordibia/handtrack.js/
+- https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
 # 遇到問題
+- 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
