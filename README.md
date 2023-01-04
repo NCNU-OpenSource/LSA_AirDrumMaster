@@ -22,9 +22,9 @@ lsa期末報告
 # DEMO影片
 
 # 工作分工
-- 陳煒函:程式碼、架伺服器
-- 陳延勳:報告、示範、創意
-- 李柏緯:寫介紹、攝影剪輯、創意
+- 陳煒函:程式碼、架伺服器、題目發想
+- 陳延勳:報告、示範、題目發想
+- 李柏緯:寫介紹、攝影剪輯
 # 參考資料
 - https://github.com/victordibia/handtrack.js/
 - https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
