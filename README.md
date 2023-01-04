@@ -15,10 +15,10 @@ lsa期末報告
 - sudo apt install php -y
 - sudo apt install git
 - cd /etc/www/html 
--sudo git clone https://github.com/SredWh/LSA_project.git
--ifconfig 獲取樹梅派IP
--電腦要跟樹梅派在同一個內網下
--根據樹梅派的IP連apache2就可以開始打鼓
+- sudo git clone https://github.com/SredWh/LSA_project.git
+- ifconfig 獲取樹梅派IP
+- 電腦要跟樹梅派在同一個內網下
+- 根據樹梅派的IP連apache2就可以開始打鼓
 # DEMO影片
 
 # 工作分工
