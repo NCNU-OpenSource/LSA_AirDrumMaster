@@ -24,7 +24,7 @@ lsa期末報告
 # 工作分工
 - 陳煒函:程式碼、架伺服器、題目發想
 - 陳延勳:報告、示範、題目發想
-- 李柏緯:寫介紹、攝影剪輯
+- 李柏緯:寫介紹、攝影剪輯、創意發想
 # 參考資料
 - https://github.com/victordibia/handtrack.js/
 - https://www.gushiciku.cn/pl/apV0/zh-tw
