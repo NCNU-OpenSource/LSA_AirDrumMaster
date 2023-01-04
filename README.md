@@ -9,7 +9,7 @@ lsa期末報告
 # 使用設備
 - raspberry pi 3
 - web camera
-# 如何快速部屬空氣鼓達人
+# 如何快速佈署空氣鼓達人
 - 以下皆在樹梅派下
 - sudo apt install apache2
 - sudo apt install php -y
