@@ -8,7 +8,7 @@ lsa期末報告
 # 使用設備
 - raspberry pi 3
 - web camera
-# 建構過程
+# 如何快速部屬空氣鼓達人
 Raspberry pi+web camer
 Raspberry pi下的指令步驟
 sudo apt install apache2
