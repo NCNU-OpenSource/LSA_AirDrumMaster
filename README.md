@@ -34,6 +34,10 @@ lsa期末報告
 - 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
 - 判斷手部的位置不夠精準，導致鼓聲會有延遲
 - 對影像辨識和硬體這部分不夠熟悉
+# 未來展望
+- 能夠更熟悉影像辨識
+- 打鼓能夠更精準
+- 能結合打鼓加音樂做節拍遊戲
 # 工作分工
 - 陳煒函:程式碼、架伺服器、報告
 - 陳延勳:示範、報告、題目發想
