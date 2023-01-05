@@ -22,11 +22,17 @@ lsa期末報告
 # 程式構想
 最初原本打算用opencv+mediapipe來開發我們的專案，但我發現開發出的效果跟我用網頁差不多，所以我們決定為了讓使用者隨時都能打鼓，所以改用網頁的方式來進行開發。
 # 程式碼說明
+- drum.php是前端畫面
+- drum.js會接收drum.php傳過來的影像來分析使用者手的位置判斷是否發出音效
+- upload.js和uplaod.php是用來處理使用者上傳的音樂
+- findmusic.php會從server端上出使用者上傳過的音樂
+- playmusic.js播放音樂
+- 其他樂器也適用上述的方法
 # DEMO影片
 
 # 工作分工
-- 陳煒函:程式碼、架伺服器、題目發想
-- 陳延勳:報告、示範、題目發想
+- 陳煒函:程式碼、架伺服器、報告
+- 陳延勳:示範、報報、題目發想
 - 李柏緯:寫介紹、攝影剪輯、創意發想
 # 遇到問題
 - 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
