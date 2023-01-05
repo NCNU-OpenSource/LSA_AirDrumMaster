@@ -25,9 +25,9 @@ lsa期末報告
 - drum.php是前端畫面
 - drum.js會接收drum.php傳過來的影像來分析使用者手的位置判斷是否發出音效
 - upload.js和uplaod.php是用來處理使用者上傳的音樂
-- findmusic.php會從server端上出使用者上傳過的音樂
+- findmusic.php會從server端上列出使用者上傳過的音樂
 - playmusic.js播放音樂
-- 其他樂器也適用上述的方法
+- 其他樂器也是用上述的方法
 # DEMO影片
 
 # 工作分工
