@@ -36,6 +36,7 @@ lsa期末報告
 - 李柏緯:寫介紹、攝影剪輯、創意發想
 # 遇到問題
 - 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
+- 時間不夠，用node js能夠開發出更好的效果
 # 參考資料
 - https://github.com/victordibia/handtrack.js/
 - https://www.gushiciku.cn/pl/apV0/zh-tw
