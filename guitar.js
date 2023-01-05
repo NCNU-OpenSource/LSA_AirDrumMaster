@@ -4,7 +4,7 @@ const modelParams={
     imageScaleFactor:0.7,
     maxNumBoxes:1,
     iouThreshold:0.5,
-    scoreThreshold:0.79// confidence threshold for predictions.
+    scoreThreshold:0.89// confidence threshold for predictions.
  }
  
 navigator.getUserMedia=
