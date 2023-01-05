@@ -30,13 +30,14 @@ lsa期末報告
 - 其他樂器也是用上述的方法
 # DEMO影片
 
+
+# 遇到問題
+- 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
+- 時間不夠，用node js能夠開發出更好的效果
 # 工作分工
 - 陳煒函:程式碼、架伺服器、報告
 - 陳延勳:示範、報報、題目發想
 - 李柏緯:寫介紹、攝影剪輯、創意發想
-# 遇到問題
-- 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
-- 時間不夠，用node js能夠開發出更好的效果
 # 參考資料
 - https://github.com/victordibia/handtrack.js/
 - https://www.gushiciku.cn/pl/apV0/zh-tw
