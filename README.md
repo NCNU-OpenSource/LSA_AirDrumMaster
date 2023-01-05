@@ -14,7 +14,7 @@ lsa期末報告
 - sudo apt install apache2
 - sudo apt install php -y
 - sudo apt install git
-- cd /etc/www/html 
+- cd /var/www/html 
 - sudo git clone https://github.com/SredWh/LSA_project.git
 - ifconfig 獲取樹梅派IP
 - 電腦要跟樹梅派在同一個內網下
@@ -23,7 +23,7 @@ lsa期末報告
 最初原本打算用opencv+mediapipe來開發我們的專案，但我發現開發出的效果跟我用網頁差不多，所以我們決定為了讓使用者隨時都能打鼓，所以改用網頁的方式來進行開發。
 # 程式碼說明
 - drum.php是前端畫面
-- drum.js會接收drum.php傳過來的影像來分析使用者手的位置判斷是否發出音效
+- drum.js會接收drum.php傳過來的網頁前端分析好的影像畫面資訊，根據手的位置判斷是否發出音效
 - upload.js和uplaod.php是用來處理使用者上傳的音樂
 - findmusic.php會從server端上列出使用者上傳過的音樂
 - playmusic.js播放音樂
