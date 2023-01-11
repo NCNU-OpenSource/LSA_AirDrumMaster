@@ -4,7 +4,7 @@ const modelParams={
     imageScaleFactor:0.7,
     maxNumBoxes:1,
     iouThreshold:0.5,
-    scoreThreshold:0.79// confidence threshold for predictions.
+    scoreThreshold:0.6// confidence threshold for predictions.
  }
  
 navigator.getUserMedia=
@@ -23,7 +23,7 @@ handTrack.startVideo(video).then(status =>{
         ,stream =>{
             video.srcObject = stream;
             //run
-            setInterval(runDetction,100);
+            setInterval(runDetction,300);
         },
         err=> console.log(err)
         );
@@ -32,22 +32,22 @@ handTrack.startVideo(video).then(status =>{
  
 function runDetction(){
     model.detect(video).then(predictions=>{
-        if(predictions.length !==0){
+        if(predictions.length !==0 && predictions[0].label!='face'){
             let hand1 = predictions[0].bbox;
             let x = hand1[0];
             let y = hand1[1];
             console.log(predictions);
-            if (y>300){
-                if(x<200){
+            if (y>200){
+                if(x<100){
                     audio.src = "./instrument/guitar.mp3";
                 }
-                else if(x>400) {
+                else if(x>400 && x<500) {
                     audio.src = "./instrument/guitar2.mp3";
                 }
-                 else if (x>300){
+                else if (x>300){
                     audio.src = "./instrument/guitar3.mp3";
                 }
-                else if (x>200 ){
+                else if (x>190 ){
                     audio.src = "./instrument/guitar4.mp3";
                 }
             }

@@ -16,7 +16,8 @@
     </dvi>    
 
     <video id="video"></video>
-    <audio src="./instrument/drum1.mp3" id="audio"></audio>
+    
+    <audio id = "audio"  src="./instrument/small_drum1.mp3"></audio>
    
     <div class="notes">
         <h3>大鼓</h3>
@@ -35,7 +36,7 @@
         <br>
         <br>
         <input id="fileupload" type="file" name="fileupload" /> 
-        <button id="upload-button" onclick="uploadFile()"> Upload </button>
+        <button id="upload-button" onclick="uploadFile()"> 上傳 </button>
         <br>
         <br>
         <h3>選擇背景音樂:<h3>

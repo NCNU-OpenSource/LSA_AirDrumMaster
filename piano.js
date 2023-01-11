@@ -3,7 +3,7 @@ const modelParams={
     imageScaleFactor:0.7,
     maxNumBoxes:1,
     iouThreshold:0.5,
-    scoreThreshold:0.79// confidence threshold for predictions.
+    scoreThreshold:0.6// confidence threshold for predictions.
  }
  
  navigator.getUserMedia=
@@ -22,7 +22,7 @@ const modelParams={
          ,stream =>{
              video.srcObject = stream;
              //run
-             setInterval(runDetction,100);
+             setInterval(runDetction,300);
          },
          err=> console.log(err)
          );
@@ -31,7 +31,7 @@ const modelParams={
  
 function runDetction(){
     model.detect(video).then(predictions=>{
-        if(predictions.length !==0){
+        if(predictions.length !==0 && predictions[0].label!='face'){
             let hand1 = predictions[0].bbox;
             let x = hand1[0];
             let y = hand1[1];

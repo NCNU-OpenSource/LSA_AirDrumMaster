@@ -35,7 +35,7 @@
         <br>
         <br>
         <input id="fileupload" type="file" name="fileupload" /> 
-        <button id="upload-button" onclick="uploadFile()"> Upload </button>
+        <button id="upload-button" onclick="uploadFile()"> 上傳 </button>
         <br>
         <br>
         <h3>選擇背景音樂:<h3>
