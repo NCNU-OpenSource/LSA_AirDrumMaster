@@ -30,6 +30,9 @@ lsa期末報告
 - 其他樂器也是用上述的方法
 # DEMO影片
 - https://youtu.be/JfrmK35xHik
+# 成果展示
+  ![image](https://user-images.githubusercontent.com/102621905/212033297-15fc2c9b-f5c0-4810-8e97-1da3a07d2814.png)
+
 # 遇到問題
 - 架在樹梅派的網頁沒辦法偵測到鏡頭(getUserMedia’ of undefined )解決方法:https://blog.clarence.tw/2020/10/29/solve-the-undefined-problem-of-getusermedia/
 - 判斷手部的位置不夠精準，導致鼓聲會有延遲
