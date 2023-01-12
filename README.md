@@ -15,7 +15,7 @@ lsa期末報告
 - sudo apt install php -y
 - sudo apt install git
 - cd /var/www/html 
-- sudo git clone https://github.com/SredWh/LSA_project.git
+- sudo git clone https://github.com/SredWh/LSA_AirDrumMaster.git
 - ifconfig 獲取樹梅派IP
 - 電腦要跟樹梅派在同一個內網下
 - 電腦根據樹梅派的IP連上apache2就可以開始打鼓
